@@ -1,0 +1,166 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+footer {
+    background-color: #e30613;
+    color: white;
+    width: 100%;
+    min-height: 50px;
+    margin-top: auto;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+#faixa-superior {
+    background-color: #e30613;
+    color: white;
+    width: 100%;
+    min-height: 10px;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding-bottom: 5px;
+    border-bottom: solid #e30613 2px;
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+#logo {
+    width: 150px;
+}
+
+nav {
+    align-self: flex-end;
+}
+
+nav a {
+    text-decoration: none;
+    padding-left: 15px;
+    color: #333333;
+}
+
+nav a:hover {
+    color: #e30613;
+    font-weight: bold;
+}
+
+#container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:  center;
+    padding-bottom: 30px;
+}
+
+h1, h2 {
+    margin: 30px auto;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+.btnAtividade{
+    width: 160px;
+    height: 90px;
+    margin: 10px 15px;
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px lightgray;
+}
+
+.btnAtividade a{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+    background-color: #333333;
+    color: rgb(213, 214, 214);
+}
+
+.btnAtividade a:hover{
+    cursor: pointer;
+    background-color:rgb(213, 214, 214);
+    color: #333333;
+    border: 2px solid #333333;
+    box-shadow: 2px 2px 3px lightgray;
+}
+
+#resposta{
+    /* display: none; */
+    width: 100%;
+    color: #333333;
+    background-color:rgb(213, 214, 214);
+    margin: 15px 0;
+    text-align: center;
+}
+.tituloAtividade{
+    width: 100%;
+    text-align: center;
+    color: #333333;
+}
+
+.btnExecutar{
+    display: flex;
+    width: 200px;
+    height: 50px;
+    margin: 10px 15px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 18px;
+    background-color: #333333;
+    color: rgb(213, 214, 214);
+}
+
+.btnExecutar:hover{
+    cursor: pointer;
+    background-color:rgb(213, 214, 214);
+    color: #333333;
+    border: 2px solid #333333;
+    box-shadow: 2px 2px 3px lightgray;
+}
+
+input{
+    width: 200px;
+    height: 40px;
+    margin: 10px 25px 10px 0;
+    font-size: 18px;
+    color: #333333;
+}
+
+label{
+    height: 40px;
+    margin: 20px 2px 20px 2px;
+    font-size: 18px;
+    color: #333333;
+    align-self: center;
+    text-align: end;
+}
+
+#erro{
+    display: block;
+    color: red;
+    font-weight: bold;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/style.css" rel="stylesheet" type="text/css" />
+    <title>Lista de Exercícios</title>
+</head>
+
+<body>
+    <header>
+        <div id="faixa-superior"></div>
+        <div id="menu">
+            <a href="index.html">
+                <img id="logo" src="../img/logo.png" alt="Logotipo SENAI" />
+            </a>
+            <nav>
+                <a href="../index.html">Home</a>
+                <a href="../atividade.html">Atividade</a>
+            </nav>
+        </div>
+    </header>
+
+    <div id="container">
+        <h1>Exercício nº 14</h1>
+
+        <p class="tituloAtividade">
+            Escreva um programa que calcule a área de um retângulo
+            com lados informados pelo usuário. 
+        </p>
+        
+        <label for="num1">Lado 1</label>
+        <input type="number" id="num1" name="num1" value="0" required />
+        <label for="num2">Lado 2</label>
+        <input type="number" id="num2" name="num2" value="0" required />
+        <button class="btnExecutar" onclick="exercicio14()">Executar</button>
+
+        <div id="resposta">
+            <h2>Resposta da Atividade</h2>
+            <p id="erro"></p>
+            <p id="resultado"></p>
+        </div>
+        
+    </div>
+    <footer>
+        SENAI Jaú | Prof Castello<br />
+        Curso Técnico em Desenvolvimento de Sistemas
+    </footer>
+</body>
+<script src="../js/script.js"></script>
+
+</html>
