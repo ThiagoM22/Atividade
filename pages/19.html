@@ -1,57 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt_br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="../css/style.css" rel="stylesheet" type="text/css" />
     <title>Lista de Exercícios</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <div id="faixa-superior"></div>
-        <div id="menu">
-            <a href="index.html">
-                <img id="logo" src="../img/logo.png" alt="Logotipo SENAI" />
-            </a>
-            <nav>
-                <a href="../index.html">Home</a>
-                <a href="../atividade.html">Atividade</a>
-            </nav>
-        </div>
+      <div id="faixa-superior"></div>
+      <div id="menu">
+        <a href="index.html">
+          <img id="logo" src="../img/logo.png" alt="Logotipo SENAI" />
+        </a>
+        <nav>
+          <a href="../index.html">Home</a>
+          <a href="../atividade.html">Atividade</a>
+        </nav>
+      </div>
     </header>
 
     <div id="container">
-        <h1>Exercício nº 19</h1>
+      <h1>Exercício nº 19</h1>
 
-        <p class="tituloAtividade">
-            Escreva
-            um programa que solicite uma palavra informada pelo usuário,
-            armazene em um vetor, e através de um laço mostre quais letras são vogais e quais
-            são consoantes.
-        </p>
+      <p class="tituloAtividade">
+        Escreva um sistema que calcule quantos anos o usuário tem, informando a
+        data completa de seu nascimento.
+      </p>
 
-        <label for="palavra">Frase </label>
-        <input type="text" id="palavra" name="palavra" placeholder="Digite uma palavra" required />
-        <label for="letra">Letra para ser substituída </label>
-        <input type="text" id="letra" name="letra" placeholder="Digite uma letra" required />
-        <button class="btnExecutar" onclick="exercicio19()">Executar</button>
+      <label for="palavra">Data de nascimento </label>
+      <input
+        type="date"
+        id="data"
+        name="palavra"
+        placeholder="Digite uma palavra"
+        required
+      />
+      <button class="btnExecutar" onclick="exercicio19()">Executar</button>
 
-        <div id="resposta">
-            <h2>Resposta da Atividade</h2>
-            <p id="erro"></p>
-            <p id="resultado"></p>
-        </div>
-        
+      <div id="resposta">
+        <h2>Resposta da Atividade</h2>
+        <p id="erro"></p>
+        <p id="resultado"></p>
+      </div>
     </div>
 
     <footer>
-        SENAI Jaú | Prof Castello<br />
-        Curso Técnico em Desenvolvimento de Sistemas
+      SENAI Jaú | Prof Castello<br />
+      Curso Técnico em Desenvolvimento de Sistemas
     </footer>
-</body>
-<script src="../js/script.js"></script>
-
+  </body>
+  <script src="../js/script.js"></script>
 </html>
